@@ -1,0 +1,8 @@
+<h2>Top Heroes</h2>
+<div class="heroes-menu">
+  <a *ngFor="let data of dataList"
+      routerLink="/detail/{{data.table}}">
+      {{data.table}}
+  </a>
+</div>
+
